@@ -31,5 +31,9 @@ public interface IFraction {
      * @param other fraction
      * @return new instance of IFraction representing the result
      */
-    IFraction dividedBy(IFraction other);
+    IFraction dividedBy(IFraction other);  
+
+    IFraction normaliseFraction (IFraction other);
+
+  
 }
