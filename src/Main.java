@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         
         Fraction fr = new Fraction(3, 8);
-        Fraction y = new Fraction(4, 4);
+        Fraction y = new Fraction(4, 12);
         IFraction added = fr.add(y);
         IFraction subtracted = fr.minus(y);
         IFraction multiplied = fr.times(y);
